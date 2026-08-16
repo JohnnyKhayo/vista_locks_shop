@@ -29,6 +29,8 @@ Vista Locks provides a clean product showcase where users can easily view differ
 git clone https://github.com/JohnnyKhayo/vista_locks_shop.git
 ```
 *right click* and **open live server** or ***go live***
+### How the project looks like
+
 
 
 ### Collaboration and contribution
