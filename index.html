@@ -5,28 +5,131 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Vista Locks Shop</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
 </head>
 <body>
     <header class="header">
         <div class="logo">Vista Locks</div>
         <nav class="navbar">
             <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#products">Products</a></li>
-            <li><a href="#about">About</a></li>
-            <li><a href="#contact">Contact</a></li>
+            <li><a href="#home">HOME</a></li>
+            <li><a href="#about">ABOUT</a></li>
+            <li><a href="#products">PRODUCTS</a></li>
+            <li><a href="#contact">CONTACT</a></li>
             </ul>
         </nav>
-        <button class="cart-btn"> cart (0)</button>
+
+        <div id="nav-icons">
+            <a href=""><i class="fa-solid fa-magnifying-glass" style="color: black;"></i></a>
+            <a href=""><i class="fa-solid fa-bag-shopping" style="color: black;"></i></a>
+            <button>Shop Now</button>
+
+        </div>
     </header>
 
     <section class="hero">
+            <img src="images/vistalocks.hero.jpg" alt="two boxes that are color blue and red written the word CiQR and a smartlock near then, all on a white table" class="hero-image">
+
     <div class="hero-content">
         <h1>Premium Door Locks</h1>
         <p>Secure your home with quality locking solutions from CiQR Systems</p>
         <a href="#products" class="hero-btn">Shop Now</a>
     </div>
 </section>
+
+<section class="products-section" id="products">
+    <div class="container">
+        <h2 class="section-title">Our Products</h2>
+
+        <div class="product-grid">
+
+            <div class="product-card">
+                <img src="images/digitalsmartlock.1.1.jpg" alt="image of a black CiQR smart Digital Lock placed on top of carton painted blue and red" class="product-image">
+                <h3 class="product-title">Smart Digital Lock</h3>
+                <div class="rating">★★★★★</div>
+                <p class="price">KES 22,999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/cylinderlockset.2.jpg" alt="an image of CiQR Cylinder Lockset that has the keys and mortise cylinder separated from the main lock" class="product-image">
+                <h3 class="product-title">High Security Cylinder Lock</h3>
+                <div class="rating">★★★★☆</div>
+                <p class="price">KES 6,499</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/mortiselock.3.avif" alt="an image of hands holding a mortise lock" class="product-image">
+                <h3 class="product-title">Mortise Main Door Lock</h3>
+                <div class="rating">★★★★★</div>
+                <p class="price">KSh 6,299</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/bathroomlock.4.jpg" alt="an image of a bathroom lock placed on of a box that is blue and red in color writte CiQR" class="product-image">
+                <h3 class="product-title">Bathroom Privacy Lock</h3>
+                <div class="rating">★★★★☆</div>
+                <p class="price">KES 2,499</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/doorhandle.5.jpg" alt="image conataining a pair of shinny door Handle" class="product-image">
+                <h3 class="product-title">Modern Door Handle</h3>
+                <div class="rating">★★★★★</div>
+                <p class="price">KES 3,999</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+            <div class="product-card">
+                <img src="images/doorstoppers.6.jpg" alt="image conataining multiple door Stoppers including magnetic door stoppers" class="product-image">
+                <h3 class="product-title">Door Stoppers</h3>
+                <div class="rating">★★★★☆</div>
+                <p class="price">KES 699</p>
+                <button class="add-to-cart">Add to Cart</button>
+            </div>
+
+        </div>
+    </div>
+</section>
+
+
+
+<hr>
+
+<footer class="footer">
+    <div class="container">
+        <div class="footer-content">
+            <div class="footer-about">
+                <h3>CiQR Systems</h3>
+                <p>Premium door locking solutions for your home. Quality locks, smart security, and reliable service.</p>
+            </div>
+
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#products">Products</a></li>
+                    <li><a href="#">About</a></li>
+                    <li><a href="#">Contact</a></li>
+                </ul>
+            </div>
+
+            <div class="footer-contact">
+                <h4>Contact Us</h4>
+                <p>Westlands, Madonna House<br>Ground Floor, Shop G10</p>
+                <p>Phone: 0739 265 914</p>
+                <p>Email: info@ciqr-systems.co.ke</p>
+            </div>
+        </div>
+
+        <div class="footer-bottom">
+            <p>&copy; 2026 CiQR Systems. All rights reserved.</p>
+        </div>
+    </div>
+</footer>
     
 </body>
 </html>
