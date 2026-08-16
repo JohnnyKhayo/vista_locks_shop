@@ -30,7 +30,7 @@ git clone https://github.com/JohnnyKhayo/vista_locks_shop.git
 ```
 *right click* and **open live server** or ***go live***
 ### How the project looks like
-
+images/vista.readme.md.png
 
 
 ### Collaboration and contribution
