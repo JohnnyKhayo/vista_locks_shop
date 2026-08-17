@@ -33,6 +33,7 @@ git clone https://github.com/JohnnyKhayo/vista_locks_shop.git
 images/vista.readme.md.png
 
 
+
 ### Collaboration and contribution
 For anyone interested in contributing and collaborating to this project. Pleasefeel free and follow the steps below.
 1. Clone the project
